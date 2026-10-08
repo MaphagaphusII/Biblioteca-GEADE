@@ -60,3 +60,12 @@ h3 {
     font-size: 22px;
     margin-bottom: 10px;
 }
+
+.estudo p {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.estudo .navegacao-estudo {
+    text-indent: 0;
+}
