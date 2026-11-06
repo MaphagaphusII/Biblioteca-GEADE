@@ -41,6 +41,11 @@ h2 {
     margin-bottom: 15px;
 }
 
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
 .botao-livro {
     text-decoration: none;
     padding: 10px 20px;
@@ -56,11 +61,6 @@ h2 {
     background-color: #333;
 }
 
-h3 {
-    font-size: 22px;
-    margin-bottom: 10px;
-}
-
 .estudo p {
     text-align: justify;
     text-indent: 2em;
@@ -68,4 +68,69 @@ h3 {
 
 .estudo .navegacao-estudo {
     text-indent: 0;
+}
+
+/* Tabelas dos estudos */
+
+.estudo table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+}
+
+.estudo th,
+.estudo td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.estudo th {
+    background-color: #eee;
+    font-weight: bold;
+}
+
+.estudo tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+/* Esquema da estrutura do ser humano */
+
+.esquema-estrutura {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    max-width: 480px;
+    text-align: center;
+}
+
+.esquema-elemento {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.esquema-elemento h4 {
+    margin: 0 0 10px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.estudo .esquema-elemento p {
+    margin: 5px 0;
+    text-align: center;
+    text-indent: 0;
+}
+
+.esquema-conexao {
+    padding: 7px 0;
+    font-size: 24px;
+    line-height: 1;
+    color: #555;
 }
